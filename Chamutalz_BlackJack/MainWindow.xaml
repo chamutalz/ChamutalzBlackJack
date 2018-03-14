@@ -1,0 +1,88 @@
+﻿<Window x:Class="Chamutalz_BlackJack.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Chamutalz_BlackJack"
+        mc:Ignorable="d"
+        Title="Chamutalz_BlackJack" Height="720" Width="1200">
+    <Window.Resources>
+        <Color x:Key="ButtonGrey">#FFCDCDCD</Color>
+    </Window.Resources>
+    <Grid>
+
+        <Image x:Name="background_chamutalz_blackjack_png" Margin="-8,-30,0,0" Source="background chamutalz blackjack.png" Stretch="Fill"/>
+        <TextBlock x:Name="dealerScore" HorizontalAlignment="Left" Height="85" Margin="80,102,0,0" TextWrapping="Wrap" Text="Dealer's Score" VerticalAlignment="Top" Width="350" FontSize="48" FontFamily="Viner Hand ITC" FontWeight="Bold"/>
+        <TextBlock x:Name="myScore" HorizontalAlignment="Left" Height="84" Margin="80,372,0,0" TextWrapping="Wrap" Text="My Score" VerticalAlignment="Top" Width="265" FontSize="48" FontWeight="Bold" FontFamily="Viner Hand ITC"/>
+        <Button x:Name="newGame" Content="New Game" HorizontalAlignment="Left" Height="55" Margin="80,605,0,0" VerticalAlignment="Top" Width="170" FontSize="26.667" FontFamily="Viner Hand ITC" Foreground="#FF7E2121" Click="startGame" RenderTransformOrigin="9.35,2.883">
+            <Button.Effect>
+                <DropShadowEffect ShadowDepth="10"/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="pass" Content="I'll take my chances" HorizontalAlignment="Left" Height="55" Margin="288,605,0,0" VerticalAlignment="Top" Width="305" Foreground="#FF7E2121" FontSize="26.667" FontFamily="Viner Hand ITC" Click="Pass">
+            <Button.Effect>
+                <DropShadowEffect ShadowDepth="10"/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="drawOneMore" Content="More blood!" HorizontalAlignment="Left" Height="55" Margin="627,605,0,0" VerticalAlignment="Top" Width="190" Foreground="#FF7E2121" FontFamily="Viner Hand ITC" FontSize="26.667" Click="DrawAnotherCard">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                    <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+                    <GradientStop Color="#FFDDDDDD" Offset="0.5"/>
+                    <GradientStop Color="#FFCDCDCD" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+            <Button.Effect>
+                <DropShadowEffect ShadowDepth="10"/>
+            </Button.Effect>
+        </Button>
+        <TextBox x:Name="dealerScoreInt" HorizontalAlignment="Left" Height="80" Margin="80,229,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="153" FontSize="48" FontFamily="Viner Hand ITC" IsEnabled="False"/>
+        <TextBox x:Name="playerScore" HorizontalAlignment="Left" Height="80" Margin="80,484,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="153" FontSize="48" FontFamily="Viner Hand ITC" IsEnabled="False"/>
+
+        <Image x:Name="card1d" Height="224" VerticalAlignment="Top" Margin="447,85,599,0"/>
+        <Image x:Name="card2d" Height="224" VerticalAlignment="Top" Margin="669,85,375,0"/>
+        <Image x:Name="card3d" Height="224" VerticalAlignment="Top" Margin="891,85,156,0"/>
+
+
+        <Image x:Name="card1" Height="224" VerticalAlignment="Top" Margin="447,340,599,0"/>
+        <Image x:Name="card2" Height="224" VerticalAlignment="Top" Margin="669,340,375,0"/>
+        <Image x:Name="card3" Height="224" VerticalAlignment="Top" Margin="891,340,156,0"/>
+
+        <Button x:Name="About" Content="About" Height="55" Margin="694,605,239,0" VerticalAlignment="Top" RenderTransformOrigin="0.133,0.304" Click="ShowAbout" BorderThickness="1" FontFamily="Viner Hand ITC" FontSize="26.667" Foreground="#FF7E2121" Width="110">
+            <Button.Effect>
+                <DropShadowEffect ShadowDepth="10"/>
+            </Button.Effect>
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.148"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Label x:Name="label1" Content="" HorizontalAlignment="Left" Height="196" Margin="994,484,-78,0" VerticalAlignment="Center" Width="276" FontSize="18" FontFamily="Viner Hand ITC" Foreground="#FF7E2121" VerticalContentAlignment="Center" Visibility="Hidden" Panel.ZIndex="999">
+            <Label.Background>
+                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White"/>
+                    <GradientStop Color="#FFCDCDCD" Offset="0.623"/>
+                </LinearGradientBrush>
+            </Label.Background>
+            <Label.Effect>
+                <DropShadowEffect ShadowDepth="10"/>
+            </Label.Effect>
+        </Label>
+        <Label x:Name="label2" Content="" HorizontalAlignment="Left" Height="170" Margin="517,340,0,180" VerticalAlignment="Center" Width="430" Foreground="#FF7E2121" FontSize="18" Visibility="Hidden" Panel.ZIndex="999" BorderThickness="2">
+            <Label.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FFFDFDFD"/>
+                    <GradientStop Color="#FFCDCDCD" Offset="0.665"/>
+                </LinearGradientBrush>
+            </Label.Background>
+        </Label>
+    </Grid>
+
+</Window>

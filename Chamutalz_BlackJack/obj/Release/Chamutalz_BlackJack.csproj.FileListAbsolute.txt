@@ -1,0 +1,13 @@
+C:\Users\Zered\Documents\Visual Studio 2015\Projects\Chamutalz_BlackJack\Chamutalz_BlackJack\bin\Release\Chamutalz_BlackJack.exe.config
+C:\Users\Zered\Documents\Visual Studio 2015\Projects\Chamutalz_BlackJack\Chamutalz_BlackJack\bin\Release\Chamutalz_BlackJack.exe
+C:\Users\Zered\Documents\Visual Studio 2015\Projects\Chamutalz_BlackJack\Chamutalz_BlackJack\bin\Release\Chamutalz_BlackJack.pdb
+C:\Users\Zered\Documents\Visual Studio 2015\Projects\Chamutalz_BlackJack\Chamutalz_BlackJack\obj\Release\MainWindow.g.cs
+C:\Users\Zered\Documents\Visual Studio 2015\Projects\Chamutalz_BlackJack\Chamutalz_BlackJack\obj\Release\App.g.cs
+C:\Users\Zered\Documents\Visual Studio 2015\Projects\Chamutalz_BlackJack\Chamutalz_BlackJack\obj\Release\Chamutalz_BlackJack_MarkupCompile.cache
+C:\Users\Zered\Documents\Visual Studio 2015\Projects\Chamutalz_BlackJack\Chamutalz_BlackJack\obj\Release\Chamutalz_BlackJack_MarkupCompile.lref
+C:\Users\Zered\Documents\Visual Studio 2015\Projects\Chamutalz_BlackJack\Chamutalz_BlackJack\obj\Release\MainWindow.baml
+C:\Users\Zered\Documents\Visual Studio 2015\Projects\Chamutalz_BlackJack\Chamutalz_BlackJack\obj\Release\Chamutalz_BlackJack.g.resources
+C:\Users\Zered\Documents\Visual Studio 2015\Projects\Chamutalz_BlackJack\Chamutalz_BlackJack\obj\Release\Chamutalz_BlackJack.Properties.Resources.resources
+C:\Users\Zered\Documents\Visual Studio 2015\Projects\Chamutalz_BlackJack\Chamutalz_BlackJack\obj\Release\Chamutalz_BlackJack.csproj.GenerateResource.Cache
+C:\Users\Zered\Documents\Visual Studio 2015\Projects\Chamutalz_BlackJack\Chamutalz_BlackJack\obj\Release\Chamutalz_BlackJack.exe
+C:\Users\Zered\Documents\Visual Studio 2015\Projects\Chamutalz_BlackJack\Chamutalz_BlackJack\obj\Release\Chamutalz_BlackJack.pdb

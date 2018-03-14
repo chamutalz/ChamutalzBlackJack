@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chamutalz_BlackJack", "Chamutalz_BlackJack\Chamutalz_BlackJack.csproj", "{3BDEC07D-301F-47F2-9357-EFAC5C9B00DD}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Chamutalz_BlackJack_Setup", "Chamutalz_BlackJack_Setup\Chamutalz_BlackJack_Setup.vdproj", "{05676068-3137-4523-81A0-CD0DD3E6B8F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3BDEC07D-301F-47F2-9357-EFAC5C9B00DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BDEC07D-301F-47F2-9357-EFAC5C9B00DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BDEC07D-301F-47F2-9357-EFAC5C9B00DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BDEC07D-301F-47F2-9357-EFAC5C9B00DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05676068-3137-4523-81A0-CD0DD3E6B8F8}.Debug|Any CPU.ActiveCfg = Debug
+		{05676068-3137-4523-81A0-CD0DD3E6B8F8}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
